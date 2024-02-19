@@ -1,6 +1,12 @@
-module github.com/influxdata/telegraf
+module github.com/coudfabrix/telegraf
 
-go 1.22
+replace github.com/influxdata/telegraf v1.29.4 => github.com/coudfabrix/telegraf v1.29.4
+
+go 1.22.0
+
+// require (
+//     github.com/influxdata/telegraf v1.29.4
+// )
 
 require (
 	cloud.google.com/go/bigquery v1.58.0
@@ -26,7 +32,6 @@ require (
 	github.com/Masterminds/sprig/v3 v3.2.3
 	github.com/Mellanox/rdmamap v1.1.0
 	github.com/PaesslerAG/gval v1.2.2
-	github.com/Shopify/sarama v1.38.1
 	github.com/aerospike/aerospike-client-go/v5 v5.11.0
 	github.com/alecthomas/units v0.0.0-20211218093645-b94a6e3cc137
 	github.com/aliyun/alibaba-cloud-sdk-go v1.62.563
@@ -221,6 +226,7 @@ require (
 	k8s.io/client-go v0.29.1
 	layeh.com/radius v0.0.0-20221205141417-e7fbddd11d68
 	modernc.org/sqlite v1.28.0
+	github.com/Shopify/sarama v1.38.1
 )
 
 require (
