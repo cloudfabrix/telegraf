@@ -32,6 +32,7 @@ require (
 	github.com/Masterminds/sprig/v3 v3.2.3
 	github.com/Mellanox/rdmamap v1.1.0
 	github.com/PaesslerAG/gval v1.2.2
+	github.com/Shopify/sarama v1.38.1
 	github.com/aerospike/aerospike-client-go/v5 v5.11.0
 	github.com/alecthomas/units v0.0.0-20211218093645-b94a6e3cc137
 	github.com/aliyun/alibaba-cloud-sdk-go v1.62.563
@@ -130,7 +131,7 @@ require (
 	github.com/kardianos/service v1.2.2
 	github.com/karrick/godirwalk v1.16.2
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
-	github.com/klauspost/compress v1.17.6
+	github.com/klauspost/compress v1.17.7
 	github.com/klauspost/pgzip v1.2.6
 	github.com/kolo/xmlrpc v0.0.0-20220921171641-a4b6fa1dd06b
 	github.com/linkedin/goavro/v2 v2.12.0
@@ -143,8 +144,8 @@ require (
 	github.com/miekg/dns v1.1.58
 	github.com/moby/ipvs v1.1.0
 	github.com/multiplay/go-ts3 v1.1.0
-	github.com/nats-io/nats-server/v2 v2.10.9
-	github.com/nats-io/nats.go v1.32.0
+	github.com/nats-io/nats-server/v2 v2.10.12
+	github.com/nats-io/nats.go v1.33.1
 	github.com/netsampler/goflow2 v1.3.6
 	github.com/newrelic/newrelic-telemetry-sdk-go v0.8.1
 	github.com/nsqio/go-nsq v1.1.0
@@ -203,13 +204,13 @@ require (
 	go.opentelemetry.io/otel/sdk/metric v1.21.0
 	go.starlark.net v0.0.0-20231121155337-90ade8b19d09
 	go.step.sm/crypto v0.43.0
-	golang.org/x/crypto v0.19.0
+	golang.org/x/crypto v0.21.0
 	golang.org/x/mod v0.14.0
 	golang.org/x/net v0.21.0
 	golang.org/x/oauth2 v0.17.0
 	golang.org/x/sync v0.6.0
-	golang.org/x/sys v0.17.0
-	golang.org/x/term v0.17.0
+	golang.org/x/sys v0.18.0
+	golang.org/x/term v0.18.0
 	golang.org/x/text v0.14.0
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20211230205640-daad0b7ba671
 	gonum.org/v1/gonum v0.14.0
@@ -226,7 +227,6 @@ require (
 	k8s.io/client-go v0.29.1
 	layeh.com/radius v0.0.0-20221205141417-e7fbddd11d68
 	modernc.org/sqlite v1.28.0
-	github.com/Shopify/sarama v1.38.1
 )
 
 require (
@@ -418,7 +418,7 @@ require (
 	github.com/muhlemmer/gu v0.3.1 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/naoina/go-stringutil v0.1.0 // indirect
-	github.com/nats-io/jwt/v2 v2.5.3 // indirect
+	github.com/nats-io/jwt/v2 v2.5.5 // indirect
 	github.com/nats-io/nkeys v0.4.7 // indirect
 	github.com/nats-io/nuid v1.0.1 // indirect
 	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.84.0 // indirect
